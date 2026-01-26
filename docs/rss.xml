@@ -1,5 +1,23 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>迷茫的小爬虫博客</title><link>https://MaryCHobbs.github.io</link><description>这是一个专注推荐IT技术和软件的博客</description><copyright>迷茫的小爬虫博客</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://avatars.githubusercontent.com/u/204805194?s=400&amp;u=94c84f1870797a1161db4523ab8d08487aeadf3a&amp;v=4</url><title>avatar</title><link>https://MaryCHobbs.github.io</link></image><lastBuildDate>Mon, 07 Jul 2025 04:10:50 +0000</lastBuildDate><managingEditor>迷茫的小爬虫博客</managingEditor><ttl>60</ttl><webMaster>迷茫的小爬虫博客</webMaster><item><title>电脑如何快速打出带声调的拼音？</title><link>https://MaryCHobbs.github.io/post/dian-nao-ru-he-kuai-su-da-chu-dai-sheng-diao-de-pin-yin-%EF%BC%9F.html</link><description>在电脑通过输入法打带声调的汉语拼音，一般只能通过调用特殊符号里面的单韵母来打，过于麻烦。</description><guid isPermaLink="true">https://MaryCHobbs.github.io/post/dian-nao-ru-he-kuai-su-da-chu-dai-sheng-diao-de-pin-yin-%EF%BC%9F.html</guid><pubDate>Mon, 07 Jul 2025 04:10:19 +0000</pubDate></item><item><title>终级教程 零成本部署VLESS、Trojan免费节点  二合一  一键部署生成两协议订阅节点</title><link>https://MaryCHobbs.github.io/post/zhong-ji-jiao-cheng-%20-ling-cheng-ben-bu-shu-VLESS%E3%80%81Trojan-mian-fei-jie-dian-%20%20-er-he-yi-%20%20-yi-jian-bu-shu-sheng-cheng-liang-xie-yi-ding-yue-jie-dian.html</link><description>![](https://www.youtube.com/watch?v=emEBm8Gw2wI)
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>迷茫的小爬虫博客</title><link>https://MaryCHobbs.github.io</link><description>这是一个专注推荐IT技术和软件的博客</description><copyright>迷茫的小爬虫博客</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://avatars.githubusercontent.com/u/204805194?s=400&amp;u=94c84f1870797a1161db4523ab8d08487aeadf3a&amp;v=4</url><title>avatar</title><link>https://MaryCHobbs.github.io</link></image><lastBuildDate>Mon, 26 Jan 2026 13:57:01 +0000</lastBuildDate><managingEditor>迷茫的小爬虫博客</managingEditor><ttl>60</ttl><webMaster>迷茫的小爬虫博客</webMaster><item><title>scrcpy 手机投屏设置</title><link>https://MaryCHobbs.github.io/post/scrcpy%20-shou-ji-tou-ping-she-zhi.html</link><description>手机先有数据线连接上电脑并打开手机  开发者模式  和USB调试
+1、先下载软件到电脑 
+官网地址：https://blog.sanshaokeji.top/wz/78.html
+Github：https://github.com/Genymobile/scrcpy
+2、解压软件
+3、运行   scrcpy-console.bat  程序  当提示  Press Enter to continue... 后按回车健即可
+4、在运行  scrcpy.exe  查看收发可以链接手机
+5、在程序文件夹地址栏输入  CMD  回车
+在命令提示框内输入  scrcpy.exe -d（USB有线连接）
+在打开一个 CMD 窗口输入  scrcpy --tcpip  （开启无线连接）
+在打开一个 CMD 窗口输入  scrcpy.exe -e   （运行无线连接）
+6、新建一个文本文档 重命名为   start  （记得把后缀名改为.bat）
+          start.bat
+内容填入     scrcpy --tcpip=10.10.10.8   (手机IP地址）
+                  scrcpy --turn-screen-off    （关闭手机屏幕）
+在创建快捷方式 改名为   投屏   
+把 快捷方式  复制到开始菜单目录   
+C:\ProgramData\Microsoft\Windows\Start Menu\Programs
+在开始菜单找到 投屏 文件  国定到开始菜单即可。</description><guid isPermaLink="true">https://MaryCHobbs.github.io/post/scrcpy%20-shou-ji-tou-ping-she-zhi.html</guid><pubDate>Mon, 26 Jan 2026 13:54:15 +0000</pubDate></item><item><title>电脑如何快速打出带声调的拼音？</title><link>https://MaryCHobbs.github.io/post/dian-nao-ru-he-kuai-su-da-chu-dai-sheng-diao-de-pin-yin-%EF%BC%9F.html</link><description>在电脑通过输入法打带声调的汉语拼音，一般只能通过调用特殊符号里面的单韵母来打，过于麻烦。</description><guid isPermaLink="true">https://MaryCHobbs.github.io/post/dian-nao-ru-he-kuai-su-da-chu-dai-sheng-diao-de-pin-yin-%EF%BC%9F.html</guid><pubDate>Mon, 07 Jul 2025 04:10:19 +0000</pubDate></item><item><title>终级教程 零成本部署VLESS、Trojan免费节点  二合一  一键部署生成两协议订阅节点</title><link>https://MaryCHobbs.github.io/post/zhong-ji-jiao-cheng-%20-ling-cheng-ben-bu-shu-VLESS%E3%80%81Trojan-mian-fei-jie-dian-%20%20-er-he-yi-%20%20-yi-jian-bu-shu-sheng-cheng-liang-xie-yi-ding-yue-jie-dian.html</link><description>![](https://www.youtube.com/watch?v=emEBm8Gw2wI)
 
 **《部署教程说明》**
 
